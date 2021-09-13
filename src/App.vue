@@ -1,4 +1,5 @@
 <template>
+	<SunriseSunset></SunriseSunset>
 	<SimpleAjax></SimpleAjax>
 	<HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
@@ -6,10 +7,11 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import SimpleAjax from './components/SimpleAjax.vue'
+import SunriseSunset from './components/sun/SunriseSunset.vue'
 export default {
 	name: 'App',
 	components: {
-		HelloWorld, SimpleAjax
+		HelloWorld, SimpleAjax, SunriseSunset
 	}
 }
 </script>
